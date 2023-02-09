@@ -213,7 +213,7 @@ header.sticky{
 }
 .row{
     display: flex;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 10px;
 }
@@ -667,4 +667,14 @@ header.sticky{
         height: 85vh;
         transition: .2s;
     }
+    .send{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .testimonials{
+        display: none;
+    }
+    /* .inner{
+        display: none;
+    } */
 }

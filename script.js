@@ -2,6 +2,7 @@ const header = document.querySelector("header");
 const loader = document.querySelector('.loader');
 const fullweb = document.querySelector('.fullweb');
 
+
 function init(){
     setTimeout(() => {
         loader.style.opacity = 0;
